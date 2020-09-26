@@ -1,4 +1,4 @@
-num = input('수는???')
+num = int(input('수는???'))
 numnum = 1
 
 while num>1:
@@ -6,8 +6,11 @@ while num>1:
       num = num*3+1
       print(num)
       print()
+      numnum = numnum+1
     else:
         num = num/2
         print(num)
         print()
+        numnum = numnum+1
+print(numnum)
         
